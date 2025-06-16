@@ -13,6 +13,7 @@ const allowedOrigins = [
   "https://staging.d2pazsmlqe3eq3.amplifyapp.com",
   "https://www.storyofpet.com",
   "https://storyofpet.com/",
+  "https://pets-story-frontend.vercel.app",
 ];
 
 const corsOptions = {
