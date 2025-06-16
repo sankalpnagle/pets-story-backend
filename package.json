@@ -1,0 +1,46 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "node index.js",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.701.0",
+    "@aws-sdk/lib-storage": "^3.701.0",
+    "@sendgrid/mail": "^8.1.4",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.1",
+    "firebase": "^10.14.1",
+    "firebase-admin": "^12.7.0",
+    "firebase-functions": "^6.0.1",
+    "http-status": "^2.0.0",
+    "json-web-token": "^3.2.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1",
+    "mysql2": "^3.11.3",
+    "node-cron": "^3.0.3",
+    "node-schedule": "^2.1.1",
+    "openai": "^4.75.0",
+    "sequelize": "^6.37.4",
+    "twilio": "^5.3.4"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0",
+    "nodemon": "^3.1.7"
+  },
+  "private": true
+}
